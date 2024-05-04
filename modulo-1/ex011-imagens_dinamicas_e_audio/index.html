@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+
+ <h1>Usando imagens dinâmicas em diferentes telas</h1>
+ <hr>
+ <p>Para testar usa está página em diferentes formatos de tela ou redimencione a tela do navegador para testar.</p>
+ <picture>
+
+    <source media="(max-width: 750px )" srcset="imagens/image-p.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="imagens/image-m.png" type="image/png">
+    <img src="imagens/image-g.png" alt="imagem flexivel">
+    
+    <hr>
+
+    <h1>Áudio</h1>
+    <p>Reproduzindo áudio em HTML5</p>
+
+    <audio preload="metadata" controls>
+
+            <source src="audio/final-grils.mp3" type="audio/mpeg">
+            <p>Infelizmente seu navegador não suporta reproduzir áudio, <a href="audio/final-grils.mp3">BAIXE O ARQUIVO AQUI</a></p>
+
+    </audio>
+
+</picture>
+</body>
+</html>

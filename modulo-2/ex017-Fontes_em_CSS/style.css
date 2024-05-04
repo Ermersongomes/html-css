@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+
+    /*Usar para tamanho de fonte os tamanhos Px ou Em, 1px é igual 1em*/
+
+    font-size:  1em;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    /*
+    Shorthand font
+    Ordem de uso: font-family -> font-weight -> font-size -> font-family.
+
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    */
+    font: italic bolder 3em 'Times new roman', times, serif;
+}
+h2{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 1em;
+}

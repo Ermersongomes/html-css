@@ -1,0 +1,13 @@
+@charset "UTF-9";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+/*copie o endereço da fonte direto do google fonts e cole no topo como mostra acima, depois chame o nome da  fonte no luga de interesse*/
+
+body{
+    font-family: "Work Sans", sans-serif;
+}
+h1,h2{
+    font-family: "Fredericka the Great", serif;
+    font-weight: 400;
+    font-style: normal;
+}
