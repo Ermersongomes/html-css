@@ -6,13 +6,21 @@
     <title>Personalizando fundos</title>
     <style>
         body{
-            height: 96vh;
-            background-color: black;
+            
+            height: 100vh;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg); 
             background-position: center center;
-            background-size: cover;
             background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;*/           
             
+            /*Fixar a imagem: background-attachment: fixed;
+                Shortheands background: Color>image>position>repeat>[size]>attachment
+            */
+                background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+                background-size: cover;
+        
         }
         main{
             background-color: white;
