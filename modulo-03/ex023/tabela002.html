@@ -8,6 +8,17 @@
         body{
             font-family: Arial, Helvetica, sans-serif;
         }
+        h1{
+          text-align: center;
+          padding-bottom: 50px;
+        }
+        caption{
+          font-size: 1.2em;
+          text-align: center;
+          color: white;
+          background-color: grey;
+          padding: 10px;
+        }
         table{
             width: 500px;
             border-collapse: collapse;
@@ -20,8 +31,15 @@
             background-color: grey;
             color: white;
         }
+        td.position{
+          text-align: center;
+        }
+        td.pop{
+          text-align: right;
+        }
         td.num{
             text-align: center;
+            font-weight: bold;
         }
         h1{
             margin-bottom: 0px;
@@ -44,6 +62,7 @@
     <!--
         Anotomia para tabelas grandes
         TABLE   
+            capation
             TABLER HEADER
                 TR, TD TH
             TABLE BODY
@@ -52,148 +71,149 @@
                 TR, TD TH
     -->
     <table>
+        <caption>Populção nas unidades federativas do Brasil</caption>
         <thead>
             <tr>
-                <th>Posição</th>
+                <th style=" width: 80px; text-align: center;">Posição</th>
                 <th>Estado</th>
-                <th>Populção</th>
+                <th style="width: 85px;">Populção</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>1°</td>
+                <td class="position">1°</td>
                 <td>São Paulo</td>
-                <td>44.411.238</td>
+                <td class="pop">44.411.238</td>
             </tr>
             <tr>
-                <td>2°</td>
+                <td class="position">2°</td>
                 <td>Minas Gerais</td>
-                <td>20.538.718</td>
+                <td class="pop">20.538.718</td>
               </tr>
               <tr>
-                <td>3°</td>
+                <td class="position">3°</td>
                 <td>Rio de Janeiro</td>
-                <td>16.054.524</td>
+                <td class="pop">16.054.524</td>
               </tr>
               <tr>
-                <td>4°</td>
+                <td class="position">4°</td>
                 <td>Bahia</td>
-                <td>14.141.626</td>
+                <td class="pop">14.141.626</td>
               </tr>
               <tr>
-                <td>5°</td>
+                <td class="position">5°</td>
                 <td>Paraná</td>
-                <td>11.444.380</td>
+                <td class="pop">11.444.380</td>
               </tr>
               <tr>
-                <td>6°</td>
+                <td class="position">6°</td>
                 <td>Rio Grande do Sul</td>
-                <td>10.882.965</td>
+                <td class="pop">10.882.965</td>
               </tr>
               <tr>
-                <td>7°</td>
+                <td class="position">7°</td>
                 <td>Pernambuco</td>
-                <td>9.058.931</td>
+                <td class="pop">9.058.931</td>
               </tr>
               <tr>
-                <td>8°</td>
+                <td class="position">8°</td>
                 <td>Ceará</td>
-                <td>8.794.957</td>
+                <td class="pop">8.794.957</td>
               </tr>
               <tr>
-                <td>9°</td>
+                <td class="position">9°</td>
                 <td>Pará</td>
-                <td>8.121.025</td>
+                <td class="pop">8.121.025</td>
               </tr>
               <tr>
-                <td>10°</td>
+                <td class="position">10°</td>
                 <td>Santa Catarina</td>
-                <td>7.610.361</td>
+                <td class="pop">7.610.361</td>
               </tr>
               <tr>
-                <td>11°</td>
+                <td class="position">11°</td>
                 <td>Goiás</td>
-                <td>7.056.495</td>
+                <td class="pop">7.056.495</td>
               </tr>
               <tr>
-                <td>12°</td>
+                <td class="position">12°</td>
                 <td>Maranhão</td>
-                <td>6.775.805</td>
+                <td class="pop">6.775.805</td>
               </tr>
               <tr>
-                <td>13°</td>
+                <td class="position">13°</td>
                 <td>Paraíba</td>
-                <td>3.974.687</td>
+                <td class="pop">3.974.687</td>
               </tr>
               <tr>
-                <td>14°</td>
+                <td class="position">14°</td>
                 <td>Amazonas</td>
-                <td>3.941.613</td>
+                <td class="pop">3.941.613</td>
               </tr>
               <tr>
-                <td>15°</td>
+                <td class="position">15°</td>
                 <td>Espírito Santo</td>
-                <td>3.833.712</td>
+                <td class="pop">3.833.712</td>
               </tr>
               <tr>
-                <td>16°</td>
+                <td class="position">16°</td>
                 <td>Mato Grosso</td>
-                <td>3.658.649</td>
+                <td class="pop">3.658.649</td>
               </tr>
               <tr>
-                <td>17°</td>
+                <td class="position">17°</td>
                 <td>Rio Grande do Norte</td>
-                <td>3.302.729</td>
+                <td class="pop">3.302.729</td>
               </tr>
               <tr>
-                <td>18°</td>
+                <td class="position">18°</td>
                 <td>Piauí</td>
-                <td>3.271.199</td>
+                <td class="pop">3.271.199</td>
               </tr>
               <tr>
-                <td>19°</td>
+                <td class="position">19°</td>
                 <td>Alagoas</td>
-                <td>3.127.683</td>
+                <td class="pop">3.127.683</td>
               </tr>
               <tr>
-                <td>20°</td>
+                <td class="position">20°</td>
                 <td>Distrito Federal</td>
-                <td>2.817.381</td>
+                <td class="pop">2.817.381</td>
               </tr>
               <tr>
-                <td>21°</td>
+                <td class="position">21°</td>
                 <td>Mato Grosso do Sul</td>
-                <td>2.757.013</td>
+                <td class="pop">2.757.013</td>
               </tr>
               <tr>
-                <td>22°</td>
+                <td class="position">22°</td>
                 <td>Sergipe</td>
-                <td>2.209.558</td>
+                <td class="pop">2.209.558</td>
               </tr>
               <tr>
-                <td>23°</td>
+                <td class="position">23°</td>
                 <td>Rondônia</td>
-                <td>1.581.196</td>
+                <td class="pop">1.581.196</td>
               </tr>
               <tr>
-                <td>24°</td>
+                <td class="position">24°</td>
                 <td>Tocantins</td>
-                <td>1.511.460</td>
+                <td class="pop">1.511.460</td>
               </tr>
               <tr>
-                <td>25°</td>
+                <td class="position">25°</td>
                 <td>Acre</td>
-                <td>830.018</td>
+                <td class="pop">830.018</td>
               </tr>
               <tr>
-                <td>26°</td>
+                <td class="position">26°</td>
                 <td>Amapá</td>
-                <td>733.759</td>
+                <td class="pop">733.759</td>
               </tr>
               <tr>
-                <td>27°</td>
+                <td class="position">27°</td>
                 <td>Roraima</td>
-                <td>636.707</td>
+                <td class="pop">636.707</td>
               </tr>
         </tbody>
         <tfoot>
