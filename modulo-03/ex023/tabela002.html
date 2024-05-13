@@ -12,6 +12,7 @@
           text-align: center;
           padding-bottom: 50px;
         }
+        /*Lengenda de tabala*/
         caption{
           font-size: 1.2em;
           text-align: center;
@@ -22,13 +23,25 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            /*cabeçalho fixo*/
+            position: relative;
         }
         td, th{
             border: 1px solid black;
             padding: 10px;
         }
+        /*cabeçalho fixo*/
+        thead > tr >th{
+          position: sticky;
+          top: 0;
+          background-color: rgb(86, 85, 85);
+        }
+        /*efeito zebrado na tabela */
+        tbody>tr:nth-child(2n){
+          background-color: rgba(211, 211, 211, 0.636);
+        }
         thead, tfoot{
-            background-color: grey;
+            background-color: rgb(86, 85, 85);
             color: white;
         }
         td.position{
@@ -54,11 +67,22 @@
             text-decoration: underline;
             color: blue;
         }
+        p{
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: justify;
+          padding: 0px 10px 0px 10px;
+          text-indent: 15px;
+        }
+        p.direito{
+          font-family: Arial, Helvetica, sans-serif;
+          padding: 0px;
+          text-indent: 1px;
+        }
     </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
-    <p>Dados disponiveis em <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o" target="_blank">Wikipedia</a></p>
+    <p class="direito">Dados disponiveis em <a href="https://pt.wikipedia.org/wiki/Lista_de_unidades_federativas_do_Brasil_por_popula%C3%A7%C3%A3o" target="_blank">Wikipedia</a></p>
     <!--
         Anotomia para tabelas grandes
         TABLE   
@@ -221,5 +245,29 @@
             <td class="num">203.062.512</td>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, voluptatem doloribus? Obcaecati, porro? Minus rerum fugiat quos, ipsa eum quo porro adipisci aspernatur dolor numquam! Maxime cupiditate at exercitationem id.
+      At atque expedita assumenda aspernatur, quo animi quia suscipit, temporibus iusto odio aliquam accusantium necessitatibus dolorem quos quas obcaecati veritatis? Culpa maxime quod molestias doloribus modi, eaque ullam amet recusandae?
+      Voluptatem voluptatum consequatur officia qui eligendi tempore sequi libero corporis ad saepe, omnis distinctio recusandae esse consectetur earum assumenda maxime velit aliquam voluptas? Dicta dolore illum qui quae odit totam?
+      Doloremque dignissimos, optio ut esse deserunt voluptates sed voluptatum quam, excepturi nam velit inventore veniam eveniet voluptatibus beatae adipisci temporibus commodi debitis praesentium ullam, ratione consectetur recusandae suscipit blanditiis! Aliquid.
+      Eum modi voluptas aspernatur impedit ipsum. Delectus reprehenderit sequi illo temporibus provident ullam natus minus sunt, excepturi ea quasi, fuga in asperiores molestiae tempore iure nesciunt cumque repellendus voluptatum quos.
+      Corporis in sint quidem numquam dolores adipisci porro eveniet et debitis quos voluptatum, aspernatur qui cumque illo ullam? Sed voluptate dignissimos voluptatem ad nesciunt quisquam quasi provident voluptatum enim similique?
+      Aliquid modi blanditiis sed nesciunt praesentium necessitatibus fugit mollitia dolores asperiores qui exercitationem accusamus itaque laudantium vel, ab veniam, sit ipsa numquam eos iusto voluptates? Recusandae provident ea quisquam vel!
+      Eum ducimus harum delectus ipsam repellat ex ratione dolores animi a, quas quaerat nisi! Doloribus aperiam quia rerum doloremque aliquid recusandae, possimus, temporibus libero quidem blanditiis, voluptates placeat perspiciatis tenetur.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, voluptatem doloribus? Obcaecati, porro? Minus rerum fugiat quos, ipsa eum quo porro adipisci aspernatur dolor numquam! Maxime cupiditate at exercitationem id.
+        At atque expedita assumenda aspernatur, quo animi quia suscipit, temporibus iusto odio aliquam accusantium necessitatibus dolorem quos quas obcaecati veritatis? Culpa maxime quod molestias doloribus modi, eaque ullam amet recusandae?
+        Voluptatem voluptatum consequatur officia qui eligendi tempore sequi libero corporis ad saepe, omnis distinctio recusandae esse consectetur earum assumenda maxime velit aliquam voluptas? Dicta dolore illum qui quae odit totam?
+        Doloremque dignissimos, optio ut esse deserunt voluptates sed voluptatum quam, excepturi nam velit inventore veniam eveniet voluptatibus beatae adipisci temporibus commodi debitis praesentium ullam, ratione consectetur recusandae suscipit blanditiis! Aliquid.
+        Eum modi voluptas aspernatur impedit ipsum. Delectus reprehenderit sequi illo temporibus provident ullam natus minus sunt, excepturi ea quasi, fuga in asperiores molestiae tempore iure nesciunt cumque repellendus voluptatum quos.
+        Corporis in sint quidem numquam dolores adipisci porro eveniet et debitis quos voluptatum, aspernatur qui cumque illo ullam? Sed voluptate dignissimos voluptatem ad nesciunt quisquam quasi provident voluptatum enim similique?
+        Aliquid modi blanditiis sed nesciunt praesentium necessitatibus fugit mollitia dolores asperiores qui exercitationem accusamus itaque laudantium vel, ab veniam, sit ipsa numquam eos iusto voluptates? Recusandae provident ea quisquam vel!
+        Eum ducimus harum delectus ipsam repellat ex ratione dolores animi a, quas quaerat nisi! Doloribus aperiam quia rerum doloremque aliquid recusandae, possimus, temporibus libero quidem blanditiis, voluptates placeat perspiciatis tenetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo, voluptatem doloribus? Obcaecati, porro? Minus rerum fugiat quos, ipsa eum quo porro adipisci aspernatur dolor numquam! Maxime cupiditate at exercitationem id.
+          At atque expedita assumenda aspernatur, quo animi quia suscipit, temporibus iusto odio aliquam accusantium necessitatibus dolorem quos quas obcaecati veritatis? Culpa maxime quod molestias doloribus modi, eaque ullam amet recusandae?
+          Voluptatem voluptatum consequatur officia qui eligendi tempore sequi libero corporis ad saepe, omnis distinctio recusandae esse consectetur earum assumenda maxime velit aliquam voluptas? Dicta dolore illum qui quae odit totam?
+          Doloremque dignissimos, optio ut esse deserunt voluptates sed voluptatum quam, excepturi nam velit inventore veniam eveniet voluptatibus beatae adipisci temporibus commodi debitis praesentium ullam, ratione consectetur recusandae suscipit blanditiis! Aliquid.
+          Eum modi voluptas aspernatur impedit ipsum. Delectus reprehenderit sequi illo temporibus provident ullam natus minus sunt, excepturi ea quasi, fuga in asperiores molestiae tempore iure nesciunt cumque repellendus voluptatum quos.
+          Corporis in sint quidem numquam dolores adipisci porro eveniet et debitis quos voluptatum, aspernatur qui cumque illo ullam? Sed voluptate dignissimos voluptatem ad nesciunt quisquam quasi provident voluptatum enim similique?
+          Aliquid modi blanditiis sed nesciunt praesentium necessitatibus fugit mollitia dolores asperiores qui exercitationem accusamus itaque laudantium vel, ab veniam, sit ipsa numquam eos iusto voluptates? Recusandae provident ea quisquam vel!
+          Eum ducimus harum delectus ipsam repellat ex ratione dolores animi a, quas quaerat nisi! Doloribus aperiam quia rerum doloremque aliquid recusandae, possimus, temporibus libero quidem blanditiis, voluptates placeat perspiciatis tenetur.</p>
 </body>
 </html>
